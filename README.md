@@ -31,6 +31,19 @@ The aim of the data is to classify healthy people and people having parkinson's 
 ## Approach used:
 
 Type of Machine Learning problem: Classification
+As we have to predict a discrete output that is 0 (healthy patient) or 1 (patient having parkinson), these represent the 2 classes of our data. And thus, this is a Binary Classification Problem.<br>
+We will use following methodology for predicting the outcome:
+1) Importing Data
+2) Getting Overview of the Data
+3) Performing Exploratory Data Analysis, trying to find patterns in data
+4) Selecting the highly correlated features for Model Building
+5) Data Pre-processing including Missing/Null value treatment, Scaling if required
+6) Creation of Training and Test sets
+7) Choosing 2-3 best algorithms suitable for the data and type of problem we are aiming to solve
+8) Model building using the chosen algorithms
+9) Training the models using training dataset
+10) Testing the models (As it is a classification problem, we will use Accuracy and Confusion Matrix as our evaluation metrics)
+11) Choosing the Best Model and Saving for future use
 
 ## Algorithms used:
 
