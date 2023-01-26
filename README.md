@@ -1,12 +1,12 @@
 # Parkinson-Disease-Detection-using-ML
 
-### What is Parkinson's Disease:
+## What is Parkinson's Disease:
 Parkinson's disease is a type of disorder of our central nervous system. This disorder affects the movement of a person.<br>
 Damage of nerve cells in the brain lead to this disease. Other symptoms are posture imbalance, slow movement and tremor- rhythmic shaking of body parts.<br>
 
 This diesase can last for years, or life long as well. Treatment can help, but cannot cure this disorder. People usually develop this disease around 60 years age or older.<br>
 
-### What is the Dataset about:
+## What is the Dataset about:
 The dataset is composed of a range of biomedical voice measurements from 31 people, 23 of them have Parkinson's disease. Each column of the table is a voice measure and there are a total of 195 measurements gathered in the dataset.
 
 Attributes Explanation:<br>
@@ -25,15 +25,45 @@ spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variatio
 
 Link to dataset: http://archive.ics.uci.edu/ml/datasets/Parkinsons/about.html
 
-### Main aim / Problem Statement
+## Main aim / Problem Statement
 The aim of the data is to classify healthy people and people having parkinson's disease, according to the 'status' column which indicates 0 for healthy person and 1 for person having parkinson.
 
-### Approach used:
+## Approach used:
 
 Type of Machine Learning problem: Classification
 
-### Algorithms used:
+## Algorithms used:
 
-### Results:
+As we have small amount of data, and we need good accuracy of the model using this data, we will train our model using following Supervised Learning Algorithms and then compare the scores:
 
-### Conclusion:
+1) Support Vector Classifier: <br>
+Support Vector Machine (SVM) Classifier is one of the Supervised Learning Algorithm. It's goal is to find best decision boundary / hyperplane which will separate the provided classes. For finding the right hyperplane, SVM chooses an extreme point per class, which is called as a support vector. <br>
+<img align="left" src="Algorithms/support-vector-machine-algorithm.png" height="250" width="300" >
+<br><br><br><br><br><br><br><br><br><br><br>
+
+2) Decision Tree Classifier: <br>
+Decision Tree is a tree structured classifier, where internal nodes (called as decision nodes) of tree represent features from the dataset, and leaf nodes represent the classes / outcome. Decision nodes are used for making a decision and can have multiple branches, Leaf nodes are the output of these decisions, they have no branches. Decision nodes ask a Yes/No question and depending on the answer they are split into branches / sub-trees.
+<img align="left" src="Algorithms/decision-tree-classification-algorithm.png" height="250" width="300" > &emsp;
+<img align="center" src="Algorithms/A-simple-decision-tree-classifier-with-4-features.jpg" height="250" width="300" >
+<br>
+3) Random Forest Classifier: <br>
+Random Forest Classifier is based on Ensemble Learning concept, which combines multiple classifiers and solves a complex problem, increases performance. Random Forest contains a number of decision trees and depends on the results / predictions of these individual trees. Based on majority votes of prediction, it predicts the final output. <br>
+<img align="left" src="Algorithms/random-forest-algorithm2.png" height="250" width="300" >
+<br><br><br><br><br><br><br><br>
+
+## Results:
+
+## Conclusion:
+
+We have accomplished our Main Aim of classifying healthy people and people having parkinson's diease based on the 'status' column of dataset.<br>
+Firstly we imported the data, performed some Exploratory Data Analysis to gather insights about data.<br>
+Then, we did Data Pre-processing that included, Feature Selection based on Pearson correlation, we separated the highly correlated features.<br>
+We performed Standard Scaling on the chosen features, created training and test sets, later used them for Model Building.<br>
+We chose 3 algorithms for our model building depending on our data:<br>
+
+1) Support Vector Machine<br>
+2) Decision Tree<br>
+3) Random Forest<br>
+
+Next, we trained separate models using these algorithms and compared the evaluation results. We observed that Random Forest algorithm outperformed out of the chosen algorithms.<br>
+Lastly, we saved our final model trained using Random Forest algorithm to the disk.
