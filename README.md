@@ -84,8 +84,8 @@ Random Forest Classifier is based on Ensemble Learning concept, which combines m
     <td>Random Forest Classifier</td>
     <td>0.9661016949152542</td>
   </tr>
-  </table>
-<img src="Screenshots/result.png" height="400" width="700">
+  </table><br>
+
 
 ## Conclusion:
 
