@@ -49,7 +49,7 @@ Decision Tree is a tree structured classifier, where internal nodes (called as d
 3) Random Forest Classifier: <br>
 Random Forest Classifier is based on Ensemble Learning concept, which combines multiple classifiers and solves a complex problem, increases performance. Random Forest contains a number of decision trees and depends on the results / predictions of these individual trees. Based on majority votes of prediction, it predicts the final output. <br>
 <img align="left" src="Algorithms/random-forest-algorithm2.png" height="250" width="300" >
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 ## Results:
 
