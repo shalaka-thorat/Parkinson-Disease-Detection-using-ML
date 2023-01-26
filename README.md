@@ -1,5 +1,7 @@
 # Parkinson-Disease-Detection-using-ML
 
+<img src="Screenshots/parkinson.jpg" height="300" width="300">
+                                                            
 ## What is Parkinson's Disease:
 Parkinson's disease is a type of disorder of our central nervous system. This disorder affects the movement of a person.<br>
 Damage of nerve cells in the brain lead to this disease. Other symptoms are posture imbalance, slow movement and tremor- rhythmic shaking of body parts.<br>
@@ -65,6 +67,25 @@ Random Forest Classifier is based on Ensemble Learning concept, which combines m
 <br><br><br><br><br><br><br><br><br><br>
 
 ## Results:
+<table cell-spacing="5" cell-padding="10" border="3">
+  <tr>
+    <th>Algorithm used for Model</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <td>Support Vector Classifier</td>
+    <td>0.9152542372881356</td>
+  </tr>
+  <tr>
+    <td>Decision Tree Classifier</td>
+    <td>0.8983050847457628</td>
+  </tr>
+  <tr>
+    <td>Random Forest Classifier</td>
+    <td>0.9661016949152542</td>
+  </tr>
+  </table>
+<img src="Screenshots/result.png" height="400" width="700">
 
 ## Conclusion:
 
