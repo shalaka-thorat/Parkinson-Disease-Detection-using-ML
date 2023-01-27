@@ -32,7 +32,7 @@ The aim of the data is to classify healthy people and people having parkinson's 
 
 ## Approach used:
 
-Type of Machine Learning problem: Classification
+Type of Machine Learning problem: Classification<br>
 As we have to predict a discrete output that is 0 (healthy patient) or 1 (patient having parkinson), these represent the 2 classes of our data. And thus, this is a Binary Classification Problem.<br>
 We will use following methodology for predicting the outcome:
 1) Importing Data
